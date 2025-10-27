@@ -1,0 +1,27 @@
+# Laravel specific
+public/storage
+storage/*.key
+.env
+.env.backup
+.env.example.local
+
+# Laravel cache & logs
+/storage/*.key
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/debugbar/*
+/bootstrap/cache/*.php
+.phpunit.result.cache
+
+
+# PHPUnit / Pest coverage reports
+coverage/
+.phpunit.result.cache
+
+# Misc
+.env.testing
+.env.development.local
+.env.production.local
+
